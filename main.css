@@ -1,0 +1,65 @@
+body {
+	font-family: Times, Palatino, Garamond, sans-serif;
+	color: white;
+	background: #603521 url("Resources/sfondo.jpg"); 
+	background-size: cover;
+	background-position: center;
+	margin: 20px auto;
+	width: 70%;
+}
+
+/* Header */
+#gmail-logo {
+	height: 50px;
+}
+
+h1 {
+	display: inline-block;
+	margin: 0;
+	font-size: 1.8em;
+}
+
+
+/* Contatore messaggi */
+h2 {
+	margin: 5px 0;
+	font-size: 1.5em;
+}
+
+#non-letti {
+	background-color: #ffc568;
+	border-radius: 100%;
+}
+
+
+/* Elenco mail */
+p {
+	display: inline;
+	color: grey;
+}
+
+.mail {
+	background-color: white;
+	margin: 3px 0;
+}
+
+.grigia {
+	background-color: lightgrey;
+}
+
+strong {
+	color: black;
+	font-weight: bold;
+}
+
+
+/* Footer */
+h3 {
+	text-align: center;
+	margin: 0;
+}
+
+.gmail-footer {
+	font-style: italic;
+	font-size: 0.6em;
+}
